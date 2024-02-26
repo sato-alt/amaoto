@@ -9,7 +9,7 @@ body {
   font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
     "ヒラギノ角ゴ Pro W3", sans-serif;
   line-height: 1.7;
-  color: #432;
+  color: #443322;
 }
 a {
   text-decoration: none;
@@ -64,10 +64,7 @@ img {
 
 /* 見出し */
 .page-title {
-font-size: 4.5rem;
-font-family: 'Luxurious Script', cursive;
-font-family: 'Alex Brush', cursive;
-font-family: 'Borel', cursive;
+font-size: 5rem;
 font-family: 'Corinthia', cursive;
 font-weight: normal;
 }
@@ -242,8 +239,8 @@ a.btn_25::before {
 ------------------------------- */
 #news {
   background-image: url(../images/news-bg.jpg);
-  height: 270px;
-  margin-bottom: 40px;
+  height: 300px;
+  margin-bottom: 30px;
 }
 #news .page-title {
   text-align: center;
@@ -365,7 +362,7 @@ h1 {
 /* MENU
 ------------------------------- */
 #menu {
-  background-image: url(../images/menu-bg.jpg);
+  background-image: url(../images/menu-bg2.jpg);
   min-height: 100vh;
 }
 .menu-content {
@@ -478,7 +475,7 @@ iframe {
   }
 
   .page-title {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   /* HEADER */
@@ -511,7 +508,7 @@ iframe {
   }
   /* ↑ ここまで追加 ↑ */
   #news .page-title {
-    margin-top: 30px;
+    margin-top: 15px;
   }
   aside {
     margin-top: 60px;
@@ -541,7 +538,7 @@ iframe {
   }
   /* MENU */
   .menu-content {
-    margin-top: 20%;
+    margin-top: 5%;
   }
   .big-box {
     grid-column: auto;
@@ -557,7 +554,7 @@ iframe {
   }
   /* CONTACT */
   #contact .page-title {
-    margin-top: 40px;
+    margin-top: 5px;
   }
 
   /* フォーム */
